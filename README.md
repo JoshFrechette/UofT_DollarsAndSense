@@ -4,24 +4,30 @@ Unit 18
 
 # Directions for the project
 
+Utilizing service workers, the user will be able to input data into the app while offline and the data will be processed when reconnected.
+
+- The user inputs the name of transaction, the transaction amount, and whether the transaction is either an  addition or subtraction to the current total.
+
+- The time of the transaction is automatically recorded and charted appropriately.
+
 # Deployment
     
 Heroku
-
+https://dashboard.heroku.com/apps/joshfdesign-dollars-and-sense
 
 GitHub repo
-
+https://github.com/TwistedPixels/Dollars-Sense.git
 
 # Usage
 
-![](Documentation/)
+![Dollars-Sense App](Documentation/Dollars_Sense.gif)
 
 
 # License
 
 MIT License
 
-Copyright (c) 2020 Josh
+Copyright (c) 2020 Josh Fréchette
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
