@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - stable
+script: 'true'
+npm: true
+cache:
+  directories:
+    - node_modules
+deploy:
+  - provider: heroku
+    on: 
+      branch: master
+    app: budget-app
+    api_key: 6192768a-4b70-48c7-a551-33163d38c7cb
+  
+
+skip_cleanup: true
